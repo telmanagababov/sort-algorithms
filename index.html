@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sort Algorithms</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assets/main.css" >
+<body>
+    <header class="page-header">
+        <h3>Sort Algorithms</h3>
+    </header>
+    <main class="container">
+        <section id="input" class="col-sm-12">
+            <section id="data" class="col-sm-6 col-xs-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Data</div>
+                    <div class="panel-body">
+                        <textarea id="data-input" class="form-control" placeholder="0, 1, 2, ..." rows="4"></textarea>
+                        <button type="button" class="btn btn-primary col-xs-12">Start</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="algorithms" class="col-sm-6 col-xs-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Algorithms</div>
+                    <div class="panel-body">
+                        <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-primary active">
+                                <input id="algorithm-bubble" type="checkbox" autocomplete="off" checked> Bubble
+                            </label>
+                            <label class="btn btn-primary">
+                                <input id="algorithm-quicksort" type="checkbox" autocomplete="off" checked> Quick Sort
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="result" class="col-sm-12">
+            <hr>
+            <div id="preloader" class="col-sm-offset-6">
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+                <div class="notch"></div>
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading">Bubble</div>
+                <div class="panel-body">
+                    <div class="result-data well col-xs-9">1,2,3,4,5,..</div>
+                    <div class="result-time well col-xs-offset-1 col-xs-2">250ms</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<link rel="stylesheet" href="assets/preloader.css" >
+<script src="app/main.js"></script>
+</html>

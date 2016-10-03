@@ -1,0 +1,15 @@
+body {
+    margin: 20px;
+}
+textarea {
+    resize: none;
+}
+
+#data #data-input {
+    margin-bottom: 15px;
+}
+
+#result .result-data {
+    max-height: 80px;
+    overflow: auto;
+}
