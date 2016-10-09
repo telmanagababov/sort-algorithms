@@ -13,3 +13,11 @@ textarea {
     max-height: 80px;
     overflow: auto;
 }
+
+#preloader.hidden {
+    display: none;
+}
+
+#result-template {
+    display: none;
+}
