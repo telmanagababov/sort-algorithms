@@ -1,6 +1,6 @@
 const InputViewEnum = {
     INPUT_DEFAULT_AMOUNT: 10000,
-    INPUT_DEFAULT_RANGE: 100,
+    INPUT_DEFAULT_RANGE: 10000,
     START_BUTTON_SELECTOR: "#panel-start",
     DATA_INPUT_SELECTOR: "#data-input",
     ALGORITHMS_SELECTOR: "#algorithms",
@@ -13,7 +13,7 @@ class InputView {
         this._startButton.onclick = () => {this.onStart();};
         this._dataInput = document.querySelector(InputViewEnum.DATA_INPUT_SELECTOR);
         this._dataInput.innerHTML = Array.from(new Array(InputViewEnum.INPUT_DEFAULT_AMOUNT))
-            .map(() => parseInt(Math.random() * InputViewEnum.INPUT_DEFAULT_AMOUNT)).join();
+            .map(() => parseInt(Math.random() * InputViewEnum.INPUT_DEFAULT_RANGE)).join();
         this._algorithms = document.querySelector(InputViewEnum.ALGORITHMS_SELECTOR);
     }
 
