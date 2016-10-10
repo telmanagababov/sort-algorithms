@@ -4,7 +4,7 @@ class QuickAlgorithm {
     }
 
     sort (data) {
-        this._quickSort(data, 0, data.length);
+        this._quickSort(data, 0, data.length - 1);
         return data;
     }
 
