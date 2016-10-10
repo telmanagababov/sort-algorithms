@@ -5,6 +5,10 @@ textarea {
     resize: none;
 }
 
+.btn-group {
+    margin: 2px;
+}
+
 #data #data-input {
     margin-bottom: 15px;
 }
@@ -14,10 +18,10 @@ textarea {
     overflow: auto;
 }
 
-#preloader.hidden {
+#result-template {
     display: none;
 }
 
-#result-template {
+#preloader.hidden {
     display: none;
 }

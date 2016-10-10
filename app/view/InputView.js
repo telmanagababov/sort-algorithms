@@ -1,5 +1,5 @@
 const InputViewEnum = {
-    INPUT_DEFAULT_AMOUNT: 10000,
+    INPUT_DEFAULT_AMOUNT: 25000,
     INPUT_DEFAULT_RANGE: 10000,
     START_BUTTON_SELECTOR: "#panel-start",
     DATA_INPUT_SELECTOR: "#data-input",
