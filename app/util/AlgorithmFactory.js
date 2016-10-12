@@ -8,7 +8,10 @@ const algorithmsFactory = (() => {
         "algorithm-heap": new HeapAlgorithm(),
         "algorithm-quick": new QuickAlgorithm(),
         "algorithm-shell": new ShellAlgorithm(),
-        "algorithm-comb": new CombAlgorithm()
+        "algorithm-comb": new CombAlgorithm(),
+        "algorithm-counting": new CountingAlgorithm(),
+        "algorithm-bucket": new BucketAlgorithm(),
+        "algorithm-radix": new RadixAlgorithm()
     };
 
     function getAlgorithm (type) {
